@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/temp"
+        android:title="TEMP"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/website"
+        android:title="WEBSITE"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+
+    </item>
+
+
+    <item
+        android:id="@+id/about"
+        android:title="about"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+</menu>
